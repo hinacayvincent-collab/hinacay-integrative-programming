@@ -14,3 +14,21 @@
   color: #f3e074;
   text-align: center;
   font-weight: 100;
+}
+.center-box {
+ display: flex;
+  justify-content: center;  /* center horizontally */
+  align-items: center;      /* center vertically (optional) */
+  color: rgb(255, 208, 1);
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s;
+
+}
+
+.btn:hover {
+  background: #3b34c5;
+}
+.cursor {
+cursor: pointer;
+}
